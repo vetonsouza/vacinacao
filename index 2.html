@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Portal de Vacinação - Juiz de Fora</title>
+</head>
+
+</html>
+
+
+<header>
+    <h1>Portal de Vacinação</h1>
+    <p>Juiz de Fora - MG</p>
+    <nav id="desktop-menu">
+        <!-- Links do menu -->
+        <a href="index.html">Página Inicial</a>
+        <link rel="stylesheet" href="http://127.0.0.1:5500/vacinacao-main/index.html#">
+
+</header>
+
+<main>
+    <section class="card2">
+    <h1 class="verifi">Verificação de Prioridade para Vacinação</h1>
+
+    <form id="formulario">
+        <label for="idade" class="form2">Idade:</label>
+        <input type="number" id="idade" name="idade" required>
+    
+        <label class="form2"> <br>
+            <input type="checkbox" id="profissionalDeSaude" name="profissionalDeSaude">
+            Profissional de Saúde
+        </label>
+    
+        <label class="form2"> <br>
+            <input type="checkbox" id="condicaoMedica" name="condicaoMedica">
+            Condição Médica Predisponente
+        </label>
+        <br>
+        <button type="button" onclick="verificarPrioridade()">Verificar Prioridade</button>
+    </form>
+    
+    <div id="mensagem"></div>
+</section>
+
+
+</main>
+
+<footer>
+    <p>&copy; 2023 Portal de Vacinação - Juiz de Fora</p>
+</footer>
+
+<script src="script2.js"></script>
+
+</body>
+
+</html>

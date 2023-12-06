@@ -1,0 +1,17 @@
+.verifi {
+    color: #3498db;
+}
+
+.form2 {
+    color:  rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.card2 {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 130px;
+    position: relative;
+    top: -100px;
+}
